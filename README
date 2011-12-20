@@ -9,12 +9,11 @@ this particular case (solving the 3-rod Tower of Hanoi game) it could have
 bugs.
 
 Amazingly, everything I needed to solve this was given in one algorithm which
-I copied from a video lesson given by Peter Norvig given from the AI glass.
+I copied from a video lesson given by Peter Norvig given from the AI class.
 I didn't need to look at other code or anything else - it's all in the lessons!
 
 TO RUN
 ------
-
 Works on Python 2.7 (should work on earlier versions of Python - but haven't
 tested on them).
 
@@ -23,6 +22,7 @@ Just type 'python astar_search.py' and enter the number of disks.
 It will calculaute the number of steps for the optimal solution.
 
 You can also display the list of steps needed to solve it.
+
 
 
 Yasir Assam

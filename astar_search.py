@@ -111,7 +111,7 @@ class Path(list):
     Just a list with two extras:
     
     * A cost function using heuristic
-    * A less than function used by the heapq
+    * A less-than function used by the heapq container
     """
     def cost(self):
         """
@@ -135,6 +135,7 @@ def graphSearch(initialState, goal):
     explored = set()
     initialPath = Path([initialState])
     frontier = [ ]
+    # Priority queue
     heapq.heappush(frontier, initialPath)
     while True:
         if not frontier:
