@@ -1,0 +1,28 @@
+A* search for the Tower of Hanoi using 3 rods.
+
+I wrote this to work out how many steps needed for the optimal solution for
+the 4 disk case. This was part (c) of Q1 on the final of ai-class.com
+(Dec 2011).
+
+This is my first implementation of A* search and although it seems to work for
+this particular case (solving the 3-rod Tower of Hanoi game) it could have
+bugs.
+
+Amazingly, everything I needed to solve this was given in one algorithm which
+I copied from a video lesson given by Peter Norvig given from the AI glass.
+I didn't need to look at other code or anything else - it's all in the lessons!
+
+TO RUN
+------
+
+Works on Python 2.7 (should work on earlier versions of Python - but haven't
+tested on them).
+
+Just type 'python astar_search.py' and enter the number of disks.
+
+It will calculaute the number of steps for the optimal solution.
+
+You can also display the list of steps needed to solve it.
+
+
+Yasir Assam

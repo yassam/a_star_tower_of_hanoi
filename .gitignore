@@ -1,0 +1,10 @@
+# See http://github.com/guides/ignore-for-git for details on this
+
+# Ignore emacs autosave & backup files
+*~
+.#*
+# Note the the escape char on the following (otherwise it would be a comment)
+\#*#
+
+# Ignore compiled files
+*.pyc
